@@ -1,12 +1,188 @@
-*{
-    box-sizing:border-box;
-    margin:0;
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
-table { width:100%;
-    height:100vh;
+
+table {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
 }
+
 td {
     width: 5%;
-    height:8.3vh;
+    height: 8vh;
 }
-.border{border: solid 1px}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.border {
+    border: solid;
+    text-align: center;
+}
+
+.vazio {
+    height: 6vh;
+}
+
+.nao-metais {
+    background-color: #1fb24a;
+}
+
+.gases-nobres {
+    background-color: #4f79c9;
+}
+
+.metais-alcalinos {
+    background-color: #d72626;
+}
+
+.metais-alcalino-terrosos {
+    background-color: #e6e23c;
+}
+
+.semimetais {
+    background-color: aqua;
+}
+
+.halogenios {
+    background-color: cadetblue;
+}
+
+.outros-metais {
+    background-color: coral;
+}
+
+.metais-transicao {
+    background-color: darkolivegreen;
+}
+
+
+
+
+.deosactini {
+    background-color: grey;
+}
+
+.nao-metais {
+    background: #8cffae;
+}
+
+.gases-nobres {
+    background: #4f79c9;
+}
+
+.metais-alcalinos {
+    background: #f70000;
+}
+
+.metais-alcalino-terrosos {
+    background: #ecfd02;
+}
+
+.semimetais {
+    background: aqua;
+}
+
+.halogenios {
+    background: rgb(0, 255, 21);
+}
+
+.outros-metais {
+    background: rgb(235, 122, 229)
+}
+
+.metais-transicao {
+    background: rgb(55, 0, 255)
+}
+
+.lantanideos {
+    background: rgb(140, 0, 255);
+}
+
+.actinideos {
+    background: grey;
+}
+
+#qGasesNobres {
+    background-color: #8cffae;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    
+}
+
+#qNMetais {
+    background-color: #4f79c9;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+
+#qMAlcalinos {
+    background-color: #ff0000;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+
+#qMTerrosos {
+    background-color: #fffb00;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+#QSmetais{
+    background-color:aqua ;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+
+}
+#QHalogenios{
+    background-color:#00fa2a ;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+#QNaometais{
+    background-color:#cd58f0 ;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+#QOmetais{
+    background-color:#cd58f0;
+    height: 15px;
+    width: 15px;
+    display: inline-block;}
+#QMetaisT {
+background-color:rgb(55, 0, 255) ;
+height: 15px;
+width: 15px;
+display: inline-block;}
+
+#Qlantanideos{
+    background-color:rgb(140, 0, 255);
+    height: 15px;
+    width: 15px;
+    display: inline-block;}
+#qActinideos{
+    background-color:grey;
+    height: 15px;
+    width: 15px;
+    display: inline-block;}
+
+  
+
+#box{
+    border: solid 1px;
+    width: 150px;
+}
+
+.legenda {
+    margin-top: 10px;
+    text-align: right;
+}
